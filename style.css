@@ -52,6 +52,10 @@ body {
   border-bottom-right-radius: 10px;
 }
 
+.form > button:hover {
+  background: #d86768;
+}
+
 .state-card {
   background: rgba(0, 0, 0, 0.5);
   height: 39vh;
