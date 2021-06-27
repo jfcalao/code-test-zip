@@ -36,15 +36,20 @@ body {
   border: none;
   width: 27vw;
   outline: 0;
-  margin-right: 1rem;
+  margin-right: 0.3rem;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .form > button {
+  color: white;
   background: #ea4f50;
   border: none;
   padding: 0.7rem;
   font-family: "museo-sans-condensed", "Futura", "Arial", sans-serif;
   cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .state-card {
