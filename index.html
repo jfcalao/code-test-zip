@@ -8,11 +8,16 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-		<input id="zip-code-input" placeholder="Type your zip-code" type="number">
-		<button id="search">Search Zipcode</button>
-		<section id="state">
-			
+	<main class="container">
+		<h2>Zip Code Finder</h2>
+		<form class="form" id="form" action="">
+			<input id="zip-code-input" placeholder="Type US Zip Code" type="number">
+			<button id="search">Search Zipcode</button>
+		</form>
+		<section id="state-information" class="state-card">
+			<figure><img src="./images/usa-map.png" style="filter: invert(1);" width="300px" alt=""></figure>
 		</section>
+	</main>
 	<script src="script.js"></script>
 </body>
 </html>

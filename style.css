@@ -1,0 +1,98 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "refrigerator-deluxe", "Impact", "Arial", sans-serif;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  color: #ffea32;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > h2 {
+  font-size: 5rem;
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form > input {
+  padding: 0.7rem 1rem;
+  border: none;
+  width: 27vw;
+  outline: 0;
+  margin-right: 1rem;
+}
+
+.form > button {
+  background: #ffea32;
+  border: none;
+  padding: 0.7rem;
+  font-family: "museo-sans-condensed", "Futura", "Arial", sans-serif;
+  cursor: pointer;
+}
+
+.state-card {
+  background: rgba(0, 0, 0, 0.5);
+  height: 39vh;
+  width: 42vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 5rem;
+  padding: 1%;
+}
+
+.state-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 50%;
+}
+
+.state-name-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.state-name-image > h2 {
+  margin: 5px 0;
+  font-size: 2rem;
+}
+.state-name-image > img {
+  filter: invert(1);
+}
+.zipcode-information-item {
+  display: flex;
+  justify-content: space-between;
+  font-family: "museo-sans-condensed", "Futura", "Arial", sans-serif;
+}
+
+.zipcode-information-item > p {
+  color: white;
+}
+
+.state-image {
+  color: white;
+}
