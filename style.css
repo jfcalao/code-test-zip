@@ -95,3 +95,21 @@ body {
 .state-image {
   color: white;
 }
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 10px;
+  }
+  .state-card {
+    width: 86vw;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 748px) {
+  html {
+    font-size: 14px;
+  }
+  .state-card {
+    width: 52vw;
+  }
+}
