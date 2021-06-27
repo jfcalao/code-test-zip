@@ -13,7 +13,7 @@ body {
 .container {
   height: 100%;
   width: 100%;
-  color: #ffea32;
+  color: #ea4f50;
   background-color: #222222;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@ body {
 }
 
 .form > button {
-  background: #ffea32;
+  background: #ea4f50;
   border: none;
   padding: 0.7rem;
   font-family: "museo-sans-condensed", "Futura", "Arial", sans-serif;
